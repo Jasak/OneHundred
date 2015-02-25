@@ -1,0 +1,10 @@
+﻿<div class="console-container">
+    @{
+        List<string> lines = ViewBag.Lines;
+        
+        foreach(string line in lines)
+        {
+            <p>@line</p>
+        }
+    }
+</div>

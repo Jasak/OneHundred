@@ -1,0 +1,16 @@
+﻿.console-container 
+{
+    background-color: black;
+    margin-top: 60px;
+    padding: 4px 4px 4px 4px;
+    max-height: 600px;
+    min-height: 300px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.console-container p 
+{
+    color: rgb(192,192,192);
+    font-family: Consolas;
+}
